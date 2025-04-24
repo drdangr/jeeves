@@ -191,18 +191,21 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
+      "audio-recorder:Начать/остановить запись": false
     }
   },
   "active": "78a5a56099797b19",
   "lastOpenFiles": [
-    "docs/router_gateway.md",
-    "docs/index.md.md",
-    "docs/architecture/overview.md",
-    "docs/roadmap.md",
-    "docs/index.md",
     "docs/research/green.md",
+    "docs/index.md.md",
     "docs/research/essence-neuro.md",
+    "docs/architecture/seeker (1).md",
+    "docs/roadmap.md",
+    "docs/router_gateway.md",
+    "docs/architecture/overview.md",
+    "docs/index.md",
     "docs/research",
     "docs/notes/ideas.md",
     "docs/notes/backlog.md",
