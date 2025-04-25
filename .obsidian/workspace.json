@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md.md",
+                "file": "docs/architecture/interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.md"
+              "title": "interface"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md.md",
+                "file": "docs/architecture/interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для index.md"
+              "title": "Обратные ссылки для interface"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md.md",
+                "file": "docs/architecture/interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из index.md"
+              "title": "Исходящие ссылки из interface"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md.md",
+                "file": "docs/architecture/interface.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура index.md"
+              "title": "Структура interface"
             }
           },
           {
@@ -198,21 +198,24 @@
   },
   "active": "78a5a56099797b19",
   "lastOpenFiles": [
-    "docs/research/green.md",
+    "docs/architecture/overview.md",
     "docs/index.md.md",
+    "docs/architecture/interface.md",
+    "docs/architecture/seeker.md",
+    "docs/architecture/learner.md",
+    "docs/architecture/analyst.md",
+    "docs/notes/ideas/visual-navigation.md",
+    "docs/notes/ideas",
+    "docs/notes/ideas.md",
+    "docs/research/green.md",
     "docs/research/essence-neuro.md",
     "docs/architecture/seeker (1).md",
     "docs/roadmap.md",
     "docs/router_gateway.md",
-    "docs/architecture/overview.md",
     "docs/index.md",
     "docs/research",
-    "docs/notes/ideas.md",
     "docs/notes/backlog.md",
     "docs/notes",
-    "docs/architecture/seeker.md",
-    "docs/architecture/learner.md",
-    "docs/architecture/analyst.md",
     "docs/architecture",
     "docs/jeeves_docs/docs/notes/backlog.md",
     "docs/jeeves_docs/docs/notes/ideas.md",
@@ -230,8 +233,6 @@
     "docs/jeeves_docs/docs",
     "docs/jeeves_docs",
     "docs/jeeves_docs.zip",
-    "Test.md",
-    "docs",
-    "README.md"
+    "Test.md"
   ]
 }
