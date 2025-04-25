@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/interface.md",
+                "file": "docs/notes/ideas/visual-navigation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interface"
+              "title": "visual-navigation"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/architecture/interface.md",
+                "file": "docs/notes/ideas/visual-navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для interface"
+              "title": "Обратные ссылки для visual-navigation"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/architecture/interface.md",
+                "file": "docs/notes/ideas/visual-navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из interface"
+              "title": "Исходящие ссылки из visual-navigation"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/architecture/interface.md",
+                "file": "docs/notes/ideas/visual-navigation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура interface"
+              "title": "Структура visual-navigation"
             }
           },
           {
@@ -198,12 +198,12 @@
   },
   "active": "78a5a56099797b19",
   "lastOpenFiles": [
-    "docs/architecture/overview.md",
-    "docs/index.md.md",
     "docs/architecture/interface.md",
-    "docs/architecture/seeker.md",
+    "docs/architecture/overview.md",
     "docs/architecture/learner.md",
     "docs/architecture/analyst.md",
+    "docs/architecture/seeker.md",
+    "docs/index.md.md",
     "docs/notes/ideas/visual-navigation.md",
     "docs/notes/ideas",
     "docs/notes/ideas.md",
