@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/roadmap.md",
+                "file": "docs/architecture/ingest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roadmap"
+              "title": "ingest"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/roadmap.md",
+                "file": "docs/architecture/ingest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для roadmap"
+              "title": "Обратные ссылки для ingest"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/roadmap.md",
+                "file": "docs/architecture/ingest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из roadmap"
+              "title": "Исходящие ссылки из ingest"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/roadmap.md",
+                "file": "docs/architecture/ingest.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура roadmap"
+              "title": "Структура ingest"
             }
           },
           {
@@ -199,6 +199,8 @@
   "active": "78a5a56099797b19",
   "lastOpenFiles": [
     "docs/architecture/seeker.md",
+    "docs/architecture/ingest.md",
+    "docs/roadmap.md",
     "docs/architecture/overview.md",
     "docs/architecture/learner.md",
     "docs/architecture/interface.md",
@@ -210,7 +212,6 @@
     "docs/research/green.md",
     "docs/research/essence-neuro.md",
     "docs/architecture/seeker (1).md",
-    "docs/roadmap.md",
     "docs/router_gateway.md",
     "docs/index.md",
     "docs/research",
@@ -232,7 +233,6 @@
     "docs/jeeves_docs/docs/index.md",
     "docs/jeeves_docs/docs",
     "docs/jeeves_docs",
-    "docs/jeeves_docs.zip",
-    "Test.md"
+    "docs/jeeves_docs.zip"
   ]
 }
