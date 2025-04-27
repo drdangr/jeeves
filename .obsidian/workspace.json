@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/graph.md",
+                "file": "docs/architecture/ingest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "graph"
+              "title": "ingest"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/architecture/graph.md",
+                "file": "docs/architecture/ingest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для graph"
+              "title": "Обратные ссылки для ingest"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/architecture/graph.md",
+                "file": "docs/architecture/ingest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из graph"
+              "title": "Исходящие ссылки из ingest"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/architecture/graph.md",
+                "file": "docs/architecture/ingest.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура graph"
+              "title": "Структура ingest"
             }
           },
           {
@@ -198,8 +198,8 @@
   },
   "active": "78a5a56099797b19",
   "lastOpenFiles": [
-    "docs/architecture/ingest.md",
     "docs/architecture/graph.md",
+    "docs/architecture/ingest.md",
     "docs/architecture/interface.md",
     "docs/notes/ideas/visual-navigation.md",
     "docs/architecture/seeker.md",
