@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/ingest-chunking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ingest"
+              "title": "ingest-chunking"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/ingest-chunking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для ingest"
+              "title": "Обратные ссылки для ingest-chunking"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/ingest-chunking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из ingest"
+              "title": "Исходящие ссылки из ingest-chunking"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/ingest-chunking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура ingest"
+              "title": "Структура ingest-chunking"
             }
           },
           {
@@ -198,8 +198,9 @@
   },
   "active": "78a5a56099797b19",
   "lastOpenFiles": [
-    "docs/architecture/graph.md",
     "docs/architecture/ingest.md",
+    "docs/architecture/ingest-chunking.md",
+    "docs/architecture/graph.md",
     "docs/architecture/interface.md",
     "docs/notes/ideas/visual-navigation.md",
     "docs/architecture/seeker.md",
@@ -230,7 +231,6 @@
     "docs/jeeves_docs/docs/architecture/seeker.md",
     "docs/jeeves_docs/docs/architecture/overview.md",
     "docs/jeeves_docs/docs/architecture",
-    "docs/jeeves_docs/docs/router_gateway.md",
     "docs/jeeves_docs/docs",
     "docs/jeeves_docs",
     "docs/jeeves_docs.zip"
