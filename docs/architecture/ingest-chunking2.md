@@ -131,51 +131,8 @@ def simple_chunk_split(text):
 
 ```python
 def advanced_chunk_split(text):
-    """Продвинутое разбиение текста на чанки с учётом структуры и маркдауна."""
-    import re
-
-    # Этап 1: Разделяем текст по двойным переносам строк (основные абзацы)
-    paragraphs = re.split(r'\n\s*\n', text.strip())
-
-    # Этап 2: Учитываем специальные структуры Markdown (списки, цитаты, заголовки)
-    refined_paragraphs = []
-    buffer = ""
-
-    for para in paragraphs:
-        if para.startswith(('-', '*', '+', '>')) or re.match(r'^#{1,6}\s', para):
-            # Это элемент списка или заголовок — отдельный блок
-            if buffer:
-                refined_paragraphs.append(buffer.strip())
-                buffer = ""
-            refined_paragraphs.append(para.strip())
-        else:
-            # Иначе накапливаем абзацы в буфер
-            if buffer:
-                buffer += "\n\n" + para
-            else:
-                buffer = para
-
-    if buffer:
-        refined_paragraphs.append(buffer.strip())
-
-    # Этап 3: Склеиваем параграфы в чанки определённого размера
-    chunks = []
-    current_chunk = ""
-    target_size = 800  # Прицеливаемся на размер чанка ~800 символов
-
-    for para in refined_paragraphs:
-        if len(current_chunk) + len(para) + 2 <= target_size:
-            current_chunk += "\n\n" + para if current_chunk else para
-        else:
-            if current_chunk:
-                chunks.append(current_chunk.strip())
-            current_chunk = para
-
-    if current_chunk:
-        chunks.append(current_chunk.strip())
-
-    return chunks
-
+    # Учет структуры, списков, цитат, терминов, спец-разметки Markdown
+    pass
 ```
 
 ## Обработка блоков тегов
@@ -264,7 +221,6 @@ def enrich_chunk(chunk, filename, full_text, chunk_index):
 
 ```
 
----
 
 ## Извлечение неразмеченных ключевых терминов
 
