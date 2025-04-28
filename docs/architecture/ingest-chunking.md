@@ -123,8 +123,45 @@ def create_big_document_chunks(text, filename, stats):
 
 ```python
 def simple_chunk_split(text):
-    # Разделение по абзацам, предложениям, мягкое перекрытие
-    pass
+    """Простое разбиение текста на чанки по абзацам и предложениям с мягким перекрытием."""
+    import re
+
+    # Этап 1: Делим текст по двойным переносам строк (абзацы)
+    paragraphs = re.split(r'\n\s*\n', text.strip())
+
+    # Этап 2: Склеиваем абзацы в чанки целевого размера
+    chunks = []
+    current_chunk = ""
+    target_size = 800  # Целевой размер чанка
+    overlap_size = 100  # Перекрытие между чанками
+
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            continue
+        if len(current_chunk) + len(para) + 2 <= target_size:
+            current_chunk += "\n\n" + para if current_chunk else para
+        else:
+            # Завершаем текущий чанк
+            if current_chunk:
+                chunks.append(current_chunk.strip())
+            # Стартуем новый
+            current_chunk = para
+
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+
+    # Этап 3: Добавляем перекрытие между чанками
+    overlapped_chunks = []
+    for i, chunk in enumerate(chunks):
+        if i > 0:
+            # Добавляем перекрытие из конца предыдущего чанка
+            overlap = chunks[i-1][-overlap_size:].strip()
+            chunk = overlap + "\n\n" + chunk
+        overlapped_chunks.append(chunk.strip())
+
+    return overlapped_chunks
+
 ```
 
 ## Продвинутое разбиение на чанки
@@ -263,6 +300,8 @@ def enrich_chunk(chunk, filename, full_text, chunk_index):
     return metadata
 
 ```
+
+---
 
 ## Извлечение неразмеченных ключевых терминов
 
