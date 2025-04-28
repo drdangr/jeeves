@@ -264,8 +264,6 @@ def enrich_chunk(chunk, filename, full_text, chunk_index):
 
 ```
 
----
-
 ## Извлечение неразмеченных ключевых терминов
 
 ```
