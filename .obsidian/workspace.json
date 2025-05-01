@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/thematic-graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ingest"
+              "title": "thematic-graph"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/thematic-graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для ingest"
+              "title": "Обратные ссылки для thematic-graph"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/thematic-graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из ingest"
+              "title": "Исходящие ссылки из thematic-graph"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/architecture/ingest.md",
+                "file": "docs/architecture/thematic-graph.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура ingest"
+              "title": "Структура thematic-graph"
             }
           },
           {
@@ -213,10 +213,11 @@
   "active": "b5057e17045ad8f9",
   "lastOpenFiles": [
     "docs/architecture/ingest-chunking.md",
+    "docs/architecture/thematic-graph.md",
+    "docs/architecture/ingest.md",
     "docs/architecture/ingest-chunking 1.md",
     "docs/architecture/graph.md",
     "docs/architecture/ingest-chunking2.md",
-    "docs/architecture/ingest.md",
     "docs/architecture/interface.md",
     "docs/notes/ideas/visual-navigation.md",
     "docs/architecture/seeker.md",
@@ -243,7 +244,6 @@
     "docs/jeeves_docs/docs/research/essence-neuro.md",
     "docs/jeeves_docs/docs/research",
     "docs/jeeves_docs/docs/architecture/learner.md",
-    "docs/jeeves_docs/docs/architecture/analyst.md",
     "docs/jeeves_docs/docs/architecture",
     "docs/jeeves_docs/docs",
     "docs/jeeves_docs",
