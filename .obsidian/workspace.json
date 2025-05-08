@@ -238,8 +238,15 @@
       "audio-recorder:Начать/остановить запись": false
     }
   },
-  "active": "f69e76ae78d76700",
+  "active": "bfd41e484dc178cc",
   "lastOpenFiles": [
+    "docs/lu243802srghf.tmp",
+    "docs/lu243802srghb.tmp",
+    "docs/Jeeves_Readme_English.docx",
+    "docs/Jeeves_Project_Description_ru.pdf",
+    "docs/Jeeves_Project_Description_ru.docx",
+    "docs/Jeeves_Project_Description.docx",
+    "docs/Jeeves_Project_Description.pdf",
     "docs/roadmap.md",
     "docs/notes/ideas/visual-navigation.md",
     "docs/architecture/overview.md",
@@ -268,13 +275,6 @@
     "docs/notes",
     "docs/architecture",
     "docs/jeeves_docs/docs/notes/backlog.md",
-    "docs/jeeves_docs/docs/notes/ideas.md",
-    "docs/jeeves_docs/docs/notes",
-    "docs/jeeves_docs/docs/research/green.md",
-    "docs/jeeves_docs/docs/research",
-    "docs/jeeves_docs/docs/architecture",
-    "docs/jeeves_docs/docs",
-    "docs/jeeves_docs",
-    "docs/jeeves_docs.zip"
+    "docs/jeeves_docs/docs/notes/ideas.md"
   ]
 }
